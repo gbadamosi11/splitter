@@ -1,0 +1,162 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     background-color: cyan;
+     font-family: sans-serif;
+}
+h3{
+     font-size: 14px;
+     color: #333;
+     text-transform: capitalize;
+     font-weight: 100;
+}
+.container{
+     background-color: #fff;
+     padding: 30px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     gap: 30px;
+     border-radius: 16px;
+}
+.main{
+     margin: 30px 0;
+}
+.input-container{
+     display: flex;
+     background-color: transparent;
+     border: 1px solid cyan;
+     padding: 5px 8px 5px 8px;
+     border-radius: 4px;
+     width: 100%;
+     margin-top: 10px;
+}
+label{
+     font-size: 14px;
+     color: #333;
+     text-transform: capitalize;
+     font-weight: 100;
+}
+.bill-currency{
+     color: #c4c4c4;
+}
+.people-icon{
+     color: #c4c4c4;
+}
+.input{
+     border: none;
+     text-align: right;
+     outline: none;
+     background-color: transparent;
+     width: 100%;
+}
+.tip{
+     margin: 30px 0;
+}
+.tip-container{
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+}
+.tip-row{
+     display: flex;
+     flex-direction: row;
+     gap: 10px;
+}
+.tip-num{
+     padding: 8px 0;
+     border-radius: 4px;
+     font-size: 17px;
+     width: 80px;
+     color: #fff;
+     text-align: center;
+     background-color: darkslategray;
+     transition: all .2s;
+}
+.tip-num:hover{
+     background-color: cyan;
+     color: darkslategray;
+     cursor: pointer;
+}
+.tip-num-input{
+     padding: 8px 8px;
+     font-size: 17px;
+     border-radius: 4px;
+     color: darkslategray;
+     background-color: transparent;
+     border: 1px solid cyan;
+     outline: none;
+     width: 80px;
+     text-align: right;
+}
+.people-head-container{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     font-size: 14px;
+}
+.error{
+     color: red;
+     display: none;
+}
+.red{
+     border: 1px solid red;
+}
+/* ASIDE */
+.aside{
+     background-color: darkslategray;
+     padding: 40px 25px;
+     border-radius: 16px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+.aside-container{
+     display: flex;
+     flex-direction: column;
+     gap: 40px;
+}
+.amt-container{
+     display: flex;
+     flex-direction: row;
+     gap: 80px;
+     align-items: center;
+}
+.amt-head-container{
+     display: flex;
+     flex-direction: column;
+     gap: 8px;
+}
+.amt-head{
+     color: #fff;
+     font-size: 13px;
+}
+.amt-text{
+     color: #c4c4c4;
+     font-size: 12px;
+}
+.amt{
+     color: cyan;
+     font-size: 32px;
+}
+.reset-btn{
+     padding: 8px 0;
+     border-radius: 4px;
+     border: none;
+     outline: none;
+     text-transform: uppercase;
+     font-weight: 600;
+     transition: all .2s;
+}
+.reset-btn:hover{
+     background-color: cyan;
+     color: darkslategray;
+     cursor: pointer;
+}
